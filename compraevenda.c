@@ -1,3 +1,18 @@
+/*Crie uma estrutura de dados para representar um item a ser comprado/vendido, com informações como nome, preço, quantidade em estoque, etc.
+
+Crie uma matriz ou lista para armazenar os itens disponíveis para compra/venda.
+
+Crie uma função para exibir a lista de itens disponíveis, com seus preços e quantidades em estoque.
+
+Crie uma função para permitir ao usuário selecionar um item da lista para comprar/vender.
+
+Para venda, verifique se o item está em estoque e, se sim, deduza a quantidade vendida do estoque e some o valor da venda ao total de vendas acumulado.
+
+Para compra, verifique se o usuário tem dinheiro suficiente para comprar o item selecionado e, se sim, adicione a quantidade comprada ao estoque e subtraia o valor da compra do dinheiro do usuário.
+
+Crie uma opção de sair do programa. */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
