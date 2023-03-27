@@ -46,7 +46,7 @@ int main() {
 
     printf("Valor total do pedido: R$ %.2f\n", valor_total);
 
-    printf("\nOpçoes de pagamento:\n");
+    printf("\nOpcoes de pagamento:\n");
     printf("1 - A vista\n");
     printf("2 - A prazo\n");
 
@@ -89,7 +89,7 @@ int main() {
         printf("Valor final com acrescimo: R$ %.2f\n", valor_final);
 
     } else {
-        printf("Opçao de pagamento inválida!\n");
+        printf("Opcao de pagamento inválida!\n");
         return 0;
     }
 
