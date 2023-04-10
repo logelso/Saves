@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main()
 {
     //variaveis inteiras
@@ -9,12 +10,17 @@ int main()
     float valor_unitario, valor_total, desconto, acrescimo, valor_final, recebido, troco;
 
     //lista de itens
-    printf("\n--Padaria da Berenice--\n");
-    printf("1 - Pao de Forma (7.50)\n");
-    printf("2 - Pao de Centeio (8.69)\n");
-    printf("3 - Broa de Milho (5.00)\n");
-    printf("4 - Sonho (4.50)\n");
-    printf("5 - Tubaina (3.25)\n");
+    printf("------------------------------------------ \n");
+    printf("|             LISTA DE ITENS             | \n");
+    printf("|----------------------------------------| \n");
+    printf("| Codigo | Nome do item | Valor  unidade | \n");
+    printf("|----------------------------------------| \n");
+    printf("|   1    | Pao de forma |    R$ 7,50     | \n");
+    printf("|   2    |Pao de centeio|    R$ 8,69     | \n");
+    printf("|   3    |Broa de milho |    R$ 5,00     | \n");
+    printf("|   4    |    Sonho     |    R$ 4,50     | \n");
+    printf("|   5    |   Tubaina    |    R$ 3,25     | \n");
+    printf("|----------------------------------------| \n\n");
     printf("\nDigite o codigo do item desejado: ");
     //le dados de entrada do usuario
     scanf("%i", &codigo);
