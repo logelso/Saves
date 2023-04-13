@@ -26,8 +26,10 @@ int main()
     scanf("%i", &codigo);
     //ignora o proximo ENTER pressionado
     getchar();
-
-
+    
+    if(codigo <1 || codigo >5){
+        printf("Codigo invalido\n");
+    }else{
    //leitura do codigo de item desejado
    //permite escolher varias opcoes(forma eficiente de substituir o if-else em situacoes de multiplas escolhas)
     switch(codigo){
@@ -108,6 +110,6 @@ int main()
     troco = recebido - valor_final;
     printf("Troco a ser devolvido: R$ %.2f\n", troco);
 
-
+    }
     return 0;
 }
